@@ -6,3 +6,5 @@ S&P500_stocks.py downloads information about each company in the S&P 500 index. 
 The second code, transactions_record.py, manages three CSV files: open_positions, closed_positions, and guideline for each day. This file is updated by S&P500_stocks.py. The program essentially checks if the guideline matches the open positions. For example, if we have an open long position for Apple stocks and today's guideline states that Apple stock should be sold because its alpha is lower than 0, the program will close the long position for Apple stock, record the open and close prices, and then open a new short position for Apple. It's as simple as that.
 
 In this particulalr case I assumed risk free rate equals 4,626% and equity risk premium equals 4,13%.
+
+If you want to ran this project in your own computer you have to create those 3 csv files and update the path to each of them in python codes.
