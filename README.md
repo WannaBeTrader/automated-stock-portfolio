@@ -7,4 +7,4 @@ The second code, transactions_record.py, manages three CSV files: open_positions
 
 In this particulalr case I assumed risk free rate equals 4,626% and equity risk premium equals 4,13%.
 
-If you want to ran this project in your own computer you have to create those 3 csv files and update the path to each of them in python codes.
+If you want to ran this project on your own computer you have to create those 3 csv files and update the path to each of them in python codes.
