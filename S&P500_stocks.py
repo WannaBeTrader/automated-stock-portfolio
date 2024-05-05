@@ -121,6 +121,6 @@ pd.set_option('display.max_rows', None)
 
 data_to_export = sp500_df_clean[["ticker", "price", "buy/sell", "number_of_shares"]]
 
-
+#change path to your own file
 data_to_export.to_csv("wytyczne_do_transakcji.csv", index=False)
 
