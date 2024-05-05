@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-
+#you have to change paths to your own csv files there
 odczyt=pd.read_csv("/Users/michal2/Desktop/wytyczne_do_transakcji.csv")
 otwarte_pozycje=pd.read_csv("/Users/michal2/Desktop/otwarte_pozycje.csv")
 closed_transactions=pd.read_csv("/Users/michal2/Desktop/closed_positions.csv")
